@@ -1,0 +1,307 @@
+/* ================================ Reset ================================  */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* ================================ Style ================================ */
+
+header {
+    height: 80px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transition: ease .40s;
+}
+
+header .navigasi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    margin: auto;
+}
+
+.navigasi .logo {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #272727;
+}
+
+.navigasi ul {
+    display: flex;
+}
+
+.navigasi ul li a {
+    margin: 0 20px;
+    font-weight: 500;
+    color: #4F98CA;
+    display: relative;
+}
+
+.navigasi ul li a:hover{
+    color: #59ce8f;
+    transition: 0.4s;
+} 
+
+
+/* Hero */
+.hero {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 10px;
+    align-items: center;
+}
+.intro h2{
+    color: #59ce8f;
+    font-size: 40px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    line-height: 70px;
+}
+
+
+
+/* porto */
+#porto {
+    margin-top: 220px;
+    background-color:  #4F98CA;
+    
+}
+#porto h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    padding-top: 20px;
+}
+#porto .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+#porto .container div {
+    width: 530px;
+    height: 300px;
+    background-color: #fff;
+    background-size: cover;
+}
+#porto img {
+    height: 300px;
+}
+
+#porto .penjelasan {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #59ce8f;
+    border-radius: 20px;
+}
+
+#porto .penjelasan p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+#porto .penjelasan .inti  {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#porto .penjelasan .buat {
+    text-align: center;
+}
+
+
+/* Blog */
+#blog {
+    margin: 0px 100px;
+}
+
+.judul {
+    text-align: center;
+    color: #4F98CA;
+    font-size: 40px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+article .j-artikel {
+    font-size: 40px;
+}
+
+article .l-modif {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#blog article h3 {
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+.blockquotes {
+    max-width: 950px;
+    margin: 10px 30px;
+    padding: 25px;
+    background: #f8fffe;
+    border: 1px solid  #59ce8f;
+}
+
+.blockqutes_text{
+    font-style: italic;
+    color: gray;
+}
+
+.blockquotes_left_b {
+    border-left-width: 10px;
+}
+
+.quotes {
+    max-width: 950px;
+    margin: 10px 30px;
+    padding: 25px;
+    background: #f8fffe;
+}
+
+.blockqutes_text span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+article .isi {
+    margin: 10px 0;
+}
+
+
+/* Story */
+#story h2{
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    top: 0;
+    left: 625px;
+    text-align: center;
+    z-index: 1;
+    padding: 20px;
+}
+#story{
+    margin-top: 100px;
+    display: flex;
+    height: 850px;
+    width: 100%;
+    background-color: #4F98CA;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+#story .gambarku {
+    border: 6px solid black;
+    width: 580px;
+    height: 580px;
+    margin-left: 60px;
+    border-radius: 20px;
+    background-color: rgb(235, 235, 235);
+}
+#story .gambarku img {
+    height: 550px;
+    width: 576;
+    margin-top: 18px;
+}
+#story .outline{
+    width: 50%;
+    height: 750px;
+    background-color: #4F98CA;
+    position: relative;
+}
+
+#story .outline div{
+    border-radius: 5px;
+}
+
+.outline .satu{
+    width: 500px;
+    height: 600px;
+    background-color: #21618b;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+}
+
+.outline .dua{
+    width: 500px;
+    height: 620px;
+    background-color: #59ce8f;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+
+.outline .tiga{
+    width: 500px;
+    height: 650px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.outline .tiga p {
+    font-size: 14px;
+    font-weight: lighter;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.outline .tiga .pertama{
+    padding-top: 120px;
+}
+
+.outline .tiga .kedua{
+    padding-top: 20px;
+}
+
+.outline .tiga .ketiga{
+    padding-top: 20px;
+}
+
+.outline .tiga button {
+    font-weight: 700;
+    padding: 10px 12px;
+    border: 2px solid #272727;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: white;
+    color: #272727;
+    margin-top: 50px;
+    margin-left: 170px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.outline .tiga button:hover {
+    border: 2px solid #59ce8f;
+    background-color: white;
+    color: #59ce8f;
+}
